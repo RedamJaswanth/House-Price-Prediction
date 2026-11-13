@@ -1,0 +1,62 @@
+{
+    "best_model": "XGBoost",
+    "currency": "INR",
+    "leaderboard": {
+        "Linear Regression": {
+            "MAE_INR": 6078062.67,
+            "RMSE_INR": 10030505.53,
+            "R2": 0.8265,
+            "MAPE_pct": 26.24,
+            "CV_R2_Mean": 0.8389,
+            "CV_R2_Std": 0.0141
+        },
+        "Ridge Regression": {
+            "MAE_INR": 6029153.62,
+            "RMSE_INR": 10202310.55,
+            "R2": 0.8205,
+            "MAPE_pct": 25.63,
+            "CV_R2_Mean": 0.8293,
+            "CV_R2_Std": 0.0141
+        },
+        "Random Forest": {
+            "MAE_INR": 1726192.1,
+            "RMSE_INR": 4755691.08,
+            "R2": 0.961,
+            "MAPE_pct": 5.97,
+            "CV_R2_Mean": 0.9629,
+            "CV_R2_Std": 0.0175
+        },
+        "Gradient Boosting": {
+            "MAE_INR": 1473797.47,
+            "RMSE_INR": 3314280.95,
+            "R2": 0.9811,
+            "MAPE_pct": 5.0,
+            "CV_R2_Mean": 0.9733,
+            "CV_R2_Std": 0.017
+        },
+        "XGBoost": {
+            "MAE_INR": 1450377.34,
+            "RMSE_INR": 3183526.95,
+            "R2": 0.9825,
+            "MAPE_pct": 4.74,
+            "CV_R2_Mean": 0.9757,
+            "CV_R2_Std": 0.0156
+        }
+    },
+    "features": {
+        "numerical": [
+            "Area_sqft",
+            "Bedrooms",
+            "Bathrooms",
+            "Floors",
+            "House_Age_years",
+            "Parking_Spaces",
+            "Distance_City_Center_km",
+            "School_Rating"
+        ],
+        "categorical": [
+            "Location",
+            "Furnishing"
+        ]
+    }
+}
