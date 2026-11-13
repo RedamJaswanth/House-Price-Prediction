@@ -1,3 +1,15 @@
+---
+title: Indian Real Estate Valuation & House Price Prediction
+emoji: 🏠
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.30.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 🏠 Indian Real Estate Valuation & House Price Prediction System (INR ₹)
 
 An end-to-end Data Science and Machine Learning regression system calibrated for the Indian metropolitan housing market. It predicts property market valuations in **Indian Rupees (INR ₹)** based on key architectural, geographical, and community infrastructure characteristics.
